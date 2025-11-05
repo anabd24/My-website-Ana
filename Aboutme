@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- About Me | Author: Ana Baltazar Diego -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ana Baltazar Diego</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+        <ul class="nav-bar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="edu-experience.html">Education</a></li>
+        <li><a href="references.html">References</a></li>
+        <li><a href="Contact.html">Contact Info</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+    <h1 class="about-heading">Learning Web Design</h1>
+    <section class="about-block" id="about">
+        <img src="../images/Computer.jpg" alt="Laptop on desk">
+        <p>My name is <strong>Ana Baltazar Diego</strong>. I am studying Computer Software Development and building my professional portfolio. I enjoy combining creativity and logic in web design, and I’m currently strengthening my front-end and back-end foundations.</p>
+    </section>
+
+    <h1 class="about-heading">Meet My Dog</h1>
+    <section class="about-block" id="pet">
+        <div class="media-container">
+            <img src="../images/coco-rivera.jpg" alt="Coco the dog" class="media-item">
+        </div>
+        <p>My dog's name is Coco. She loves walks, playing, and keeping me company while I study.</p>
+        <div class="video-embed" aria-label="Embedded video">
+            <iframe src="https://www.youtube.com/embed/ysz5S6PUM-U" title="Sample video" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <h1 class="about-heading">Travels</h1>
+    <section class="about-block" id="travel">
+        <img src="../images/Travel.jpg" alt="Scenic travel view">
+        <p>Traveling helps me learn and grow. I enjoy discovering new places and cultures and bringing that inspiration into my projects.</p>
+    </section>
+    </main>
+
+    <footer>
+        <p>Created by <strong>Ana Baltazar Diego</strong> | &copy; 2025
+        <a href="https://profile.indeed.com/p/anab-bw73qx5" target="_blank">
+            <img src="../images/indeed-icon.png" alt="Indeed icon" width="30" height="30">
+        </a>
+        </p>
+    </footer>
+</body>
+</html>

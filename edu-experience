@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Education & Experience | Author: Ana Baltazar Diego -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education & Experience - Ana Baltazar Diego</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+        <ul class="nav-bar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="edu-experience.html">Education</a></li>
+        <li><a href="references.html">References</a></li>
+        <li><a href="Contact.html">Contact Info</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section class="skills-section" id="skills">
+        <img src="../images/Skills-image.jpg" alt="Skills illustration" class="Skills-img">
+        <div class="skills-text">
+            <h1>Technical & Professional Experience</h1>
+            <ul>
+                <li><strong>Business Administration at Tequila Grill</strong> – Payroll management, team supervision, and daily operations.</li>
+                <li><strong>Walmart Associate</strong> – Customer service and store operations.</li>
+                <li><strong>Technical Skills</strong>:
+                    <ul>
+                        <li>SQL / SQL Server</li>
+                        <li>JavaScript</li>
+                        <li>CSS & HTML5</li>
+                        <li>Java</li>
+                        <li>PHP & Apache</li>
+                        <li>Microsoft Office (Word, Excel, PowerPoint, Access)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>Created by <strong>Ana Baltazar Diego</strong> | &copy; 2025
+        <a href="https://profile.indeed.com/p/anab-bw73qx5" target="_blank">
+            <img src="../images/indeed-icon.png" alt="Indeed icon" width="30" height="30">
+        </a>
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Contact | Author: Ana Baltazar Diego -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+        <ul class="nav-bar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="edu-experience.html">Education</a></li>
+        <li><a href="references.html">References</a></li>
+        <li><a href="Contact.html">Contact Info</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+    <h1 class="Contact-Heading">Let's Work Together!</h1>
+
+    <div class="contact-container">
+        <img src="../images/team-work.jpg" alt="Team working together" class="contact-image">
+    
+        <table class="contact-table" aria-label="Contact information table">
+            <tr><th colspan="2">Contact Information</th></tr>
+            <tr><td>Name</td><td><strong>Ana Baltazar Diego</strong></td></tr>
+            <tr><td>Phone Number</td><td>641-226-9062</td></tr>
+            <tr><td>Email</td><td><a href="mailto:anabaltazar69@yahoo.com" class="contact-link">anabaltazar69@yahoo.com</a></td></tr>
+            <tr><td>Indeed</td><td><a href="https://profile.indeed.com/p/anab-bw73qx5" target="_blank" class="contact-link">profile.indeed.com/p/anab-bw73qx5</a></td></tr>
+        </table>
+    </div>
+
+    <section aria-label="Contact form section">
+        <h2 style="text-align:center; color:#a75b8a;">Contact Form</h2>
+        <form class="contact-form" aria-label="Send a message">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <p>Created by <strong>Ana Baltazar Diego</strong> | &copy; 2025
+        <a href="https://profile.indeed.com/p/anab-bw73qx5" target="_blank">
+            <img src="../images/indeed-icon.png" alt="Indeed icon" width="30" height="30">
+        </a>
+        </p>
+    </footer>
+</body>
+</html>
